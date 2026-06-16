@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────
+# Secrets — NEVER commit these. This is the whole reason
+# .gitignore matters for you: keep API keys out of GitHub.
+# ─────────────────────────────────────────────
+.env
+.env.*
+*.key
+secrets.json
+config.local.*
+
+# ─────────────────────────────────────────────
+# Python junk
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ─────────────────────────────────────────────
+# OS / editor noise
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
